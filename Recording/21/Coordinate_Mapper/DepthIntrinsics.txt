@@ -1,0 +1,8 @@
+Kinect ID: 102265540247
+FocalLengthX: 368.4765
+FocalLengthY: 368.4765
+PrincipalPointX: 256.5926
+PrincipalPointY: 208.4521
+RadialDistortionSecondOrder: 0.08581377
+RadialDistortionFourthOrder: -0.270636
+RadialDistortionSixthOrder: 0.09947588
