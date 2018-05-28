@@ -73,13 +73,16 @@ def main():
                 f = fa.get_vector()
               #  f.append(int(sub_b) +random.uniform(-15 , 25))
 
-                if int(sub_b) > 60:
+                if int(sub_b) > 66:
                     label_vector.append(1)
                     feature_vector.append(f)
 
-                elif int(sub_b) < 40:
+                elif int(sub_b) < 38:
                     label_vector.append(0)
                     feature_vector.append(f)
+
+
+
             except:
                 print('faild on ' + str(sub_b))
 
