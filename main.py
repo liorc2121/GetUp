@@ -84,7 +84,8 @@ def main():
 
 
             except:
-                print('faild on ' + str(sub_b))
+                a =3
+                #print('faild on ' + str(sub_b))
 
     ClassifierFactory().fit_all(feature_vector,label_vector, 5)
 
