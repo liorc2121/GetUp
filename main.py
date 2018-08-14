@@ -60,7 +60,7 @@ def read_body_coordinates_from_path(path):
 
 
 def main():
-    path = 'C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\Recording'
+    path = 'C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\\Recording'
     feature_vector = []
     label_vector = []
 
@@ -71,8 +71,6 @@ def main():
                 all_body_coordinates = read_body_coordinates_from_path(path + '\\' + sub_b + '\\Body')
                 fa = Features(all_body_coordinates)
                 f = fa.get_vector()
-              #  f.append(int(sub_b) +random.uniform(-15 , 25))
-
                 if int(sub_b) > 66:
                     label_vector.append(1)
                     feature_vector.append(f)
@@ -81,11 +79,8 @@ def main():
                     label_vector.append(0)
                     feature_vector.append(f)
 
-
-
             except:
                 a =3
-                #print('faild on ' + str(sub_b))
 
     ClassifierFactory().fit_all(feature_vector,label_vector, 5)
 

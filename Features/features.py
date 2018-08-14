@@ -1,6 +1,18 @@
 from Common.common import *
 import numpy as np
 
+
+# the angle is BAC
+def calc_angle(A, B, C):
+    AB_vec = np.array([B[0] - A[0], B[1] - A[1], B[2] - A[2]])
+    AC_vec =  np.array([C[0] - A[0], C[1] - A[1], C[2] - A[2]])
+    dot_ABC = np.dot(AB_vec, AC_vec)
+    len_ABC = np.linalg.norm(AB_vec) * np.linalg.norm(AC_vec)
+
+    a = np.arccos((dot_ABC / len_ABC))
+    return a
+
+
 class Features:
     def __init__(self, body_coordinates):
         self.all_body_coordinates = body_coordinates
@@ -10,7 +22,8 @@ class Features:
     def get_vector(self):
         self.total_time()
         self.time_to_get_up()
-        self.get_variance_mean_max_min
+        #self.get_variance_mean_max_min()
+        self.get_degree('SpineBase','Head','KneeLeft')
         return self.feature_vector
 
     def normal_coordinates(self, all_body_coordinates):
@@ -64,9 +77,19 @@ class Features:
 
         return []
 
-    def get_degree(self):
-        for body_coordinates in self.all_body_coordinates:
-            spine_base = body_coordinates['SpineBase']
-            spine_base = body_coordinates['']
-            spine_base = body_coordinates['']
+    def get_degree(self,name1,name2,name3):
+        spine_base =  np.array([[body_coordinate[name1]['x'],body_coordinate[name1]['y'],body_coordinate[name1]['z']] for body_coordinate in self.all_normal_coordinates])
+        KneeLeft = np.array([[body_coordinate[name2]['x'],body_coordinate[name2]['y'],body_coordinate[name2]['z']] for body_coordinate in self.all_normal_coordinates])
+        ShoulderLeft = np.array([[body_coordinate[name3]['x'],body_coordinate[name3]['y'],body_coordinate[name3]['z']] for body_coordinate in self.all_normal_coordinates])
+
+        for i in range(len(spine_base)):
+            a= calc_angle(spine_base[i],KneeLeft[i],ShoulderLeft[i])
+
+
+
+
+
+
+
+
 
