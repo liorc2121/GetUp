@@ -4,7 +4,6 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.feature_selection import RFE
 import time
 
 

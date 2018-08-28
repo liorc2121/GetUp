@@ -1,0 +1,25 @@
+body 0
+286#271#2132#SpineBase
+291#230#2127#SpineMid
+295#187#2099#Neck
+304#166#1968#Head
+268#197#2059#ShoulderLeft
+251#219#2310#ElbowLeft
+245#249#2264#WristLeft
+324#191#2195#ShoulderRight
+341#211#2247#ElbowRight
+335#241#2203#WristRight
+337#242#2188#HandRight
+274#272#2097#HipLeft
+240#280#1978#KneeLeft
+224#333#2030#AnkleLeft
+216#349#2028#FootLeft
+299#271#2081#HipRight
+321#286#1890#KneeRight
+317#347#1891#AnkleRight
+328#363#0#FootRight
+294#198#2106#SpineShoulder
+244#262#2201#HandTipLeft
+245#256#2137#ThumbLeft
+339#248#2138#HandTipRight
+332#245#2217#ThumbRight
