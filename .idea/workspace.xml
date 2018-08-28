@@ -7,10 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="558cdba4-c6b8-4ff8-8fd6-f6e282e973f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,9 +107,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
-    <option name="y" value="520" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="527" />
   </component>
@@ -254,7 +250,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2703549" />
@@ -262,7 +258,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32622603" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32312566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -356,12 +352,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>max([len(shot) for shot in self.all_body_coordinates])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>[len(shot) for shot in self.all_body_coordinates]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -396,14 +392,14 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>[int(x[6:-4]) for x in os.listdir(path)]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="setValue">
       <expression>
-        <expression-string />
+        <expression-string>{'SpineBase': &lt;__main__.Point object at 0x000001BFE965FCF8&gt;, 'SpineMid': &lt;__main__.Point object at 0x000001BFE94A2C50&gt;, 'Neck': &lt;__main__.Point object at 0x000001BFE965F400&gt;, 'Head': &lt;__main__.Point object at 0x000001BFE965FE10&gt;, 'ShoulderLeft': &lt;__main__.Point object at 0x000001BFE965FDD8&gt;, 'ElbowLeft': &lt;__main__.Point object at 0x000001BFE9669860&gt;, 'WristLeft': &lt;__main__.Point object at 0x000001BFE96694A8&gt;, 'HandLeft': &lt;__main__.Point object at 0x000001BFE9669EF0&gt;, 'ShoulderRight': &lt;__main__.Point object at 0x000001BFE9669C88&gt;, 'HipLeft': &lt;__main__.Point object at 0x000001BFE9669BE0&gt;, 'KneeLeft': &lt;__main__.Point object at 0x000001BFE9669AC8&gt;, 'HipRight': &lt;__main__.Point object at 0x000001BFE9669A58&gt;, 'KneeRight': &lt;__main__.Point object at 0x000001BFE9669828&gt;, 'SpineShoulder': &lt;__main__.Point object at 0x000001BFE9669898&gt;, 'HandTipLeft': &lt;__main__.Point object at 0x000001BFE9669080&gt;, 'ThumbLeft': &lt;__main__.Point object at 0x000001BFE9669208&gt;, 'HandTipRight': &lt;__main__.Point obje...</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
