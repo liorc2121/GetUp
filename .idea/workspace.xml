@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.py" line="46" />
-    <bookmark url="file://$PROJECT_DIR$/main.py" description="feature_vector.append(f)" line="112" />
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="62" />
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="121" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="558cdba4-c6b8-4ff8-8fd6-f6e282e973f9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Labeling/labeling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +21,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+            <state relative-caret-position="799">
+              <caret line="132" column="36" lean-forward="true" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#273#1086#0" />
+                <element signature="e#1136#1565#0" />
+                <element signature="e#1617#2439#0" />
+                <element signature="e#2784#3881#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="labeling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labeling/labeling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -33,21 +49,20 @@
       <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classifier/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="-996">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="features.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="features.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Features/features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="138" column="117" selection-start-line="138" selection-start-column="117" selection-end-line="138" selection-end-column="117" />
+            <state relative-caret-position="374">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
                 <element signature="e#478#714#0" />
-                <element signature="e#683#862#0" />
                 <element signature="e#941#1299#0" />
                 <element signature="e#1367#2579#0" />
                 <element signature="e#2653#3330#0" />
@@ -100,18 +115,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/PycharmProjects/KinectAndFun/main.py" />
-        <option value="$PROJECT_DIR$/classifier/classifier.py" />
         <option value="$PROJECT_DIR$/Common/common.py" />
-        <option value="$PROJECT_DIR$/Features/features.py" />
+        <option value="$PROJECT_DIR$/Labeling/labeling.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/classifier/classifier.py" />
+        <option value="$PROJECT_DIR$/Features/features.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -128,17 +143,12 @@
             <path>
               <item name="GetUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="GetUp" type="462c0819:PsiDirectoryNode" />
-              <item name="classifier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetUp" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Labeling" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +223,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -250,19 +260,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2703549" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13465554" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32312566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40831557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40405118" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -277,32 +288,31 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven Projects" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32622603" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2703549" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13489583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3220697" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40831557" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40443507" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven Projects" order="7" />
@@ -317,18 +327,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="145" />
+          <line>130</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="160" />
+          <line>129</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Features/features.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="161" />
+          <url>file://$PROJECT_DIR$/classifier/classifier.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classifier/classifier.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="190" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -341,58 +356,63 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="165" />
+      <option name="time" value="191" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="k_best.fit_transform(data,labels)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>body_coordinate.keys()</expression-string>
+        <expression-string>k_best.fit_transform(data,labels)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>max([len(shot) for shot in self.all_body_coordinates])</expression-string>
+        <expression-string>k_best.</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[len(shot) for shot in self.all_body_coordinates]</expression-string>
+        <expression-string>exc_type, exc_obj, tb = sys.exc_info()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list</expression-string>
+        <expression-string>sys.</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.listdir(path).append(-1)</expression-string>
+        <expression-string>sys</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.listdir(path)</expression-string>
+        <expression-string>e.__traceback__</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list[0]</expression-string>
+        <expression-string>e.args</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[1,2,3,7,4,75].sort()</expression-string>
+        <expression-string>points_path</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[1,2,3,7,4,75]</expression-string>
+        <expression-string>[x[0] for x in os.walk('Data')]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[int(x[6:-4]) for x in os.listdir(path)]</expression-string>
+        <expression-string>[x[0] for x in os.walk(RECORDING_PATH)]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -406,13 +426,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/encodings/cp1255.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -448,7 +461,6 @@
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#478#714#0" />
-            <element signature="e#683#862#0" />
             <element signature="e#941#1299#0" />
             <element signature="e#1367#2579#0" />
             <element signature="e#2653#3330#0" />
@@ -485,6 +497,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -531,7 +546,6 @@
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#478#714#0" />
-            <element signature="e#683#862#0" />
             <element signature="e#941#1299#0" />
             <element signature="e#1367#2579#0" />
             <element signature="e#2653#3330#0" />
@@ -568,6 +582,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -586,7 +603,6 @@
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#478#714#0" />
-            <element signature="e#683#862#0" />
             <element signature="e#941#1299#0" />
             <element signature="e#1367#2579#0" />
             <element signature="e#2653#3330#0" />
@@ -616,6 +632,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -634,6 +653,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -652,6 +674,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -677,6 +702,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -709,6 +737,9 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
           </folding>
         </state>
       </provider>
@@ -791,36 +822,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/classifier.py">
+    <entry file="file://$PROJECT_DIR$/Labeling/labeling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Features/features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="138" column="117" selection-start-line="138" selection-start-column="117" selection-end-line="138" selection-end-column="117" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#478#714#0" />
-            <element signature="e#683#862#0" />
-            <element signature="e#941#1299#0" />
-            <element signature="e#1367#2579#0" />
-            <element signature="e#2653#3330#0" />
-            <element signature="e#2986#3090#0" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+        <state relative-caret-position="799">
+          <caret line="132" column="36" lean-forward="true" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#273#1086#0" />
+            <element signature="e#1136#1565#0" />
+            <element signature="e#1617#2439#0" />
+            <element signature="e#2784#3881#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#478#714#0" />
+            <element signature="e#941#1299#0" />
+            <element signature="e#1367#2579#0" />
+            <element signature="e#2653#3330#0" />
+            <element signature="e#2986#3090#0" />
           </folding>
         </state>
       </provider>

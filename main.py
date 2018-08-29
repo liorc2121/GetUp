@@ -5,10 +5,26 @@ import matplotlib.pyplot as plt
 import matplotlib
 from mpl_toolkits.mplot3d import Axes3D
 import glob
+import sys
+import random
+from Labeling.labeling import *
+from classifier.classifier import  ClassifierFactory
 
-RECORDING_PATH = 'D:\Recordings'
+#C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\
+RECORDING_PATH = 'Data'
+#RECORDING_PATH = 'C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\Data'
 FILE_NAME = 'Points'
+LABELING = [0,1,2,3,4]
 
+
+def shuffle_2_list(A,B):
+    if len(A) != len(B):
+        raise Exception("Lengths don't match")
+    indexes = [i for i in range(len(A))]
+    random.shuffle(indexes)
+    A_shuffled = [A[i] for i in indexes]
+    B_shuffled = [B[i] for i in indexes]
+    return A_shuffled, B_shuffled
 
 
 def print_dots(body_coordinates_shot):
@@ -83,40 +99,43 @@ def bodies_coordinates_from_file(file_path):
     return list_all_bodies
 
 
+def create_features_labels_from_file(path):
+    feature_vector = []
+    label_vector = []
+    for dir in os.walk(RECORDING_PATH):
+        for sub_folder in dir[1]:
+            try:
+                if dir[0] == RECORDING_PATH:
+                    label = int(sub_folder)
+                    sub_directory = RECORDING_PATH + '\\' + sub_folder
+                    for rec in os.walk(sub_directory):
+                        for points_folder in rec[1]:
+                            if rec[0] == sub_directory:
+                                points_path = sub_directory + '\\' + points_folder + '\\Points'
+                                if points_path == '' or os.path.exists(points_path):
+                                    all_body_coordinates = read_body_coordinates_from_path(points_path)
+                                    fa = Features(all_body_coordinates)
+                                    f,f_names = fa.get_vector()
+                                    feature_vector.append(f)
+                                    label_vector.append(label)
+            except Exception as e:
+                print(e)
+
+    return feature_vector, f_names, label_vector
+
 
 
 def main():
-    feature_vector = []
-    label_vector = []
+    features, scores = create_features_labels_from_file(RECORDING_PATH)
+    shuffle_feature,shuffle_scores = shuffle_2_list(features,scores)
+    all_labels, labels_names = LabelFactory().all_labels_system(shuffle_scores)
 
-    sub_directory = os.walk(RECORDING_PATH)
-    for rec in sub_directory:
-        for sub_b in rec[1]:
-            try:
-                if rec[0] == RECORDING_PATH:
-                    #print(sub_b)
-                    points_path = RECORDING_PATH + '\\' + sub_b + '\\Points'
-                    if points_path == '' or os.path.exists(points_path):
-                        print(points_path)
-                        all_body_coordinates = read_body_coordinates_from_path(points_path)
-                        #for x in all_body_coordinates:
-                         #   print_dots(x)
+    for i in range(len(all_labels)):
+        print(labels_names[i])
+        ClassifierFactory().fit_all(shuffle_feature,all_labels[i], 5)
 
 
-                        fa = Features(all_body_coordinates)
-                        f = fa.get_vector()
-                        print(len(f))
 
-                        '''
-                        if int(sub_b) > 66:
-                            label_vector.append(1)
-                            feature_vector.append(f)
-                        elif int(sub_b) < 38:
-                            label_vector.append(0)
-                            feature_vector.append(f)
-                            '''
-            except Exception as e:
-                print(e)
 
 
 

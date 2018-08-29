@@ -1,6 +1,5 @@
 from Common.common import *
 import numpy as np
-import math
 
 VAR_HEAD_START_Z = 15
 
@@ -29,7 +28,7 @@ class Features:
         self.get_max_people_on_frame()
         self.number_of_diffrent_people()
         self.get_degree_features()
-        return self.feature_vector
+        return self.feature_vector, self.features_names
 
     def check_sitting_body(self,first_bodies_coordinates_shot):
             max_spine_y = 0
