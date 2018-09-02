@@ -1,0 +1,378 @@
+binary_labels	SVM
+		Test on all features
+		cross-validation average scores: 0.697
+
+		Test on 10 best features
+		cross-validation average scores: 0.697
+			the selected features are:
+								SpineBase y var
+								WristLeft x var
+								WristLeft y max
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								KneeLeft x mean
+								KneeRight x mean
+								Neck SpineBase Head degree std
+		Test on 20 best features
+		cross-validation average scores: 0.697
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft y max
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x mean
+								AnkleLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 30 best features
+		cross-validation average scores: 0.697
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z min
+								Head z min
+								ElbowLeft x mean
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft x mean
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z min
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 50 best features
+		cross-validation average scores: 0.697
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z var
+								Neck x min
+								Neck z min
+								Head z var
+								Head x min
+								Head z min
+								ElbowLeft z var
+								ElbowLeft x mean
+								ElbowLeft x max
+								ElbowLeft y max
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft z mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x mean
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight x max
+								WristRight y max
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft y var
+								KneeLeft x mean
+								AnkleLeft y var
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z var
+								SpineShoulder x min
+								SpineShoulder z min
+								Neck SpineBase Head degree max
+								Neck SpineBase Head degree mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+								ElbowLeft ShoulderLeft WristLeft degree std
+								Neck Head ShoulderRight degree max
+	DecisionTree
+		Test on all features
+		cross-validation average scores: 0.666
+
+		Test on 10 best features
+		cross-validation average scores: 0.808
+			the selected features are:
+								SpineBase y var
+								WristLeft x var
+								WristLeft y max
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								KneeLeft x mean
+								KneeRight x mean
+								Neck SpineBase Head degree std
+		Test on 20 best features
+		cross-validation average scores: 0.808
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft y max
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x mean
+								AnkleLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 30 best features
+		cross-validation average scores: 0.782
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z min
+								Head z min
+								ElbowLeft x mean
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft x mean
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z min
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 50 best features
+		cross-validation average scores: 0.741
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z var
+								Neck x min
+								Neck z min
+								Head z var
+								Head x min
+								Head z min
+								ElbowLeft z var
+								ElbowLeft x mean
+								ElbowLeft x max
+								ElbowLeft y max
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft z mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x mean
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight x max
+								WristRight y max
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft y var
+								KneeLeft x mean
+								AnkleLeft y var
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z var
+								SpineShoulder x min
+								SpineShoulder z min
+								Neck SpineBase Head degree max
+								Neck SpineBase Head degree mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+								ElbowLeft ShoulderLeft WristLeft degree std
+								Neck Head ShoulderRight degree max
+	KNN
+		Test on all features
+		cross-validation average scores: 0.634
+
+		Test on 10 best features
+		cross-validation average scores: 0.741
+			the selected features are:
+								SpineBase y var
+								WristLeft x var
+								WristLeft y max
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								KneeLeft x mean
+								KneeRight x mean
+								Neck SpineBase Head degree std
+		Test on 20 best features
+		cross-validation average scores: 0.759
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft y max
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x mean
+								AnkleLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 30 best features
+		cross-validation average scores: 0.851
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z min
+								Head z min
+								ElbowLeft x mean
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft x mean
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z min
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+		Test on 50 best features
+		cross-validation average scores: 0.808
+			the selected features are:
+								max_people_on_frame
+								SpineBase y var
+								Neck z var
+								Neck x min
+								Neck z min
+								Head z var
+								Head x min
+								Head z min
+								ElbowLeft z var
+								ElbowLeft x mean
+								ElbowLeft x max
+								ElbowLeft y max
+								ElbowLeft z min
+								WristLeft x var
+								WristLeft x mean
+								WristLeft z mean
+								WristLeft y max
+								WristLeft z min
+								ShoulderRight x var
+								ShoulderRight z var
+								ShoulderRight z min
+								ElbowRight z var
+								ElbowRight x mean
+								ElbowRight z mean
+								ElbowRight x max
+								ElbowRight z max
+								WristRight x var
+								WristRight z mean
+								WristRight x max
+								WristRight y max
+								WristRight z max
+								WristRight x min
+								KneeLeft x var
+								KneeLeft y var
+								KneeLeft x mean
+								AnkleLeft y var
+								AnkleLeft x mean
+								FootLeft x mean
+								KneeRight x mean
+								AnkleRight x mean
+								FootRight x mean
+								SpineShoulder z var
+								SpineShoulder x min
+								SpineShoulder z min
+								Neck SpineBase Head degree max
+								Neck SpineBase Head degree mean
+								Neck SpineBase Head degree std
+								KneeRight FootRight HipRight degree var
+								ElbowLeft ShoulderLeft WristLeft degree std
+								Neck Head ShoulderRight degree max

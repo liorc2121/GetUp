@@ -23,10 +23,10 @@ class Features:
 
     def get_vector(self):
         self.total_frames()
-        self.time_to_get_up()
-        self.get_variance_mean_max_min()
         self.get_max_people_on_frame()
         self.number_of_diffrent_people()
+        self.time_to_get_up()
+        self.get_variance_mean_max_min()
         self.get_degree_features()
         return self.feature_vector, self.features_names
 
