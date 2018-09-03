@@ -5,7 +5,7 @@ binary_labels	SVM
 		Test on 10 best features
 		cross-validation average scores: 0.697
 			the selected features are:
-								SpineBase y var
+								Neck y var
 								WristLeft x var
 								WristLeft y max
 								ElbowRight x max
@@ -19,7 +19,7 @@ binary_labels	SVM
 		cross-validation average scores: 0.697
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								ElbowLeft z min
 								WristLeft x var
 								WristLeft y max
@@ -42,7 +42,7 @@ binary_labels	SVM
 		cross-validation average scores: 0.697
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z min
 								Head z min
 								ElbowLeft x mean
@@ -75,7 +75,7 @@ binary_labels	SVM
 		cross-validation average scores: 0.697
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z var
 								Neck x min
 								Neck z min
@@ -126,12 +126,12 @@ binary_labels	SVM
 								Neck Head ShoulderRight degree max
 	DecisionTree
 		Test on all features
-		cross-validation average scores: 0.666
+		cross-validation average scores: 0.708
 
 		Test on 10 best features
-		cross-validation average scores: 0.808
+		cross-validation average scores: 0.793
 			the selected features are:
-								SpineBase y var
+								Neck y var
 								WristLeft x var
 								WristLeft y max
 								ElbowRight x max
@@ -142,10 +142,10 @@ binary_labels	SVM
 								KneeRight x mean
 								Neck SpineBase Head degree std
 		Test on 20 best features
-		cross-validation average scores: 0.808
+		cross-validation average scores: 0.816
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								ElbowLeft z min
 								WristLeft x var
 								WristLeft y max
@@ -165,10 +165,10 @@ binary_labels	SVM
 								Neck SpineBase Head degree std
 								KneeRight FootRight HipRight degree var
 		Test on 30 best features
-		cross-validation average scores: 0.782
+		cross-validation average scores: 0.811
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z min
 								Head z min
 								ElbowLeft x mean
@@ -198,10 +198,10 @@ binary_labels	SVM
 								Neck SpineBase Head degree std
 								KneeRight FootRight HipRight degree var
 		Test on 50 best features
-		cross-validation average scores: 0.741
+		cross-validation average scores: 0.699
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z var
 								Neck x min
 								Neck z min
@@ -252,12 +252,12 @@ binary_labels	SVM
 								Neck Head ShoulderRight degree max
 	KNN
 		Test on all features
-		cross-validation average scores: 0.634
+		cross-validation average scores: 0.587
 
 		Test on 10 best features
-		cross-validation average scores: 0.741
+		cross-validation average scores: 0.699
 			the selected features are:
-								SpineBase y var
+								Neck y var
 								WristLeft x var
 								WristLeft y max
 								ElbowRight x max
@@ -268,10 +268,10 @@ binary_labels	SVM
 								KneeRight x mean
 								Neck SpineBase Head degree std
 		Test on 20 best features
-		cross-validation average scores: 0.759
+		cross-validation average scores: 0.811
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								ElbowLeft z min
 								WristLeft x var
 								WristLeft y max
@@ -291,10 +291,10 @@ binary_labels	SVM
 								Neck SpineBase Head degree std
 								KneeRight FootRight HipRight degree var
 		Test on 30 best features
-		cross-validation average scores: 0.851
+		cross-validation average scores: 0.833
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z min
 								Head z min
 								ElbowLeft x mean
@@ -324,10 +324,10 @@ binary_labels	SVM
 								Neck SpineBase Head degree std
 								KneeRight FootRight HipRight degree var
 		Test on 50 best features
-		cross-validation average scores: 0.808
+		cross-validation average scores: 0.766
 			the selected features are:
 								max_people_on_frame
-								SpineBase y var
+								Neck y var
 								Neck z var
 								Neck x min
 								Neck z min

@@ -29,8 +29,7 @@ list_body_part_mapped: List[Union[str, Any]] = ['SpineBase',
 DEFAULT_BASE = 'SpineBase'
 
 
-POINT_OF_INTREST = ['SpineBase',
-                     'Neck',
+POINT_OF_INTREST = [ 'Neck',
                      'Head',
                      'ShoulderLeft',
                      'ElbowLeft',

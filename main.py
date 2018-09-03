@@ -14,7 +14,7 @@ from classifier.classifier import ClassifierFactory
 
 # C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\
 RECORDING_PATH = 'Data'
-# RECORDING_PATH = 'C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\Data'
+RECORDING_PATH = 'C:\\Users\\Lior\\Documents\\GitHub\\GetUp\\Data'
 FILE_NAME = 'Points'
 LABELING = [0, 1, 2, 3, 4]
 
@@ -125,15 +125,14 @@ def create_features_labels_from_file(path):
 
 def main():
     try:
-        start = time.clock()
+        start = time.time()
         args_parser = ArgumentParser()
         args_parser.add_argument('-p', help='path to input pictures directory', default=None)
         args_parser.add_argument('--cv', help='number of cross-validations folds. Default=5', default=5, type=int)
         args_parser.add_argument('--txt',
                                  help='path to save the features and classification rate as txt Default =\'output.txt\'',
                                  default='output.txt')
-        args_parser.add_argument('--debug', help='Add debug printing default = False',
-                                 default=False, type=bool)
+        args_parser.add_argument('--debug', help='Add debug printing default = False', default=False, type=bool)
 
         args = args_parser.parse_args()
         print(args.debug)
@@ -144,8 +143,8 @@ def main():
         all_labels, labels_names = LabelFactory().all_labels_system(shuffle_scores)
         ClassifierFactory().fit_all(shuffle_feature, features_names, all_labels, labels_names, args.cv, args.txt,
                                     args.debug)
-        print(args.txt + ' successfully created')
-        print("\n\nit's take ", time.clock() - start, "sec")
+        print('\n\n' + args.txt + ' successfully created')
+        print("it's take ", time.time() - start, "sec")
     except Exception as e:
         print('something wrong happen')
         print(e)

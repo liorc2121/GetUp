@@ -1,4 +1,4 @@
-#!C:\Users\Lior\PycharmProjects\GetUp\venv\Scripts\python.exe
+#!C:\Users\Lior\Documents\GitHub\NLPLab\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==9.0.1','console_scripts','pip3.6'
 __requires__ = 'pip==9.0.1'
 import re

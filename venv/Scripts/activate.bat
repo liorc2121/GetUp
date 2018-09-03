@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Lior\PycharmProjects\GetUp\venv"
+set "VIRTUAL_ENV=C:\Users\Lior\Documents\GitHub\NLPLab\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
