@@ -135,8 +135,6 @@ def main():
         args_parser.add_argument('--debug', help='Add debug printing default = False', default=False, type=bool)
 
         args = args_parser.parse_args()
-        print(args.debug)
-
         args.p = RECORDING_PATH if args.p is None else args.p
         features, features_names, scores = create_features_labels_from_file(args.p)
         shuffle_feature, shuffle_scores = shuffle_2_list(features, scores)

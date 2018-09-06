@@ -31,8 +31,6 @@ class Classifier:
             if print_debug:
                 print('\t' + self.classifier_name)
             file.write('\t' + self.classifier_name + os.linesep)
-            start = time.time()
-            avg_score = 0
             if print_debug:
                 print('\t\tTest on all features')
             file.write('\t\tTest on all features' + os.linesep)
@@ -92,15 +90,17 @@ class ClassifierFactory:
                             Classifier(KNeighborsClassifier(), 'KNN')]
 
     def fit_all(self, all_feature_vector, features_names, all_labels, labels_names, cv=5, output='output.txt',
-                print_debug=False):
+                print_debug=True):
 
-        output = 'output.txt' if output is None else output
+        output = 'output_with_features.txt' if output is None else output
+        output = output[:-4]
         dir_path = os.path.dirname(output)
         if dir_path != '' and not os.path.exists(dir_path):
             os.makedirs(dir_path)
 
+
         for i in range(len(all_labels)):
-            with open(output, 'w') as f:
+            with open(output + "_" + labels_names[i] +".txt", 'w') as f:
                 f.write(labels_names[i])
                 if print_debug:
                     print(labels_names[i])
