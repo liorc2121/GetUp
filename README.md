@@ -15,14 +15,19 @@ the camera save the Data
 
 
 # Analyze the Data:
-Features: 
-points of interest:
-max on How many people in the frame.
-how many different people 
-total of frames per record
-the number of frames its took the person to get up
-list of 15 points of interest points: body parts are used to get up, for each point we take: var, min, max on all 3D coordinates
-list of 15 triple and takes the angle betweens the three points for each angle we take: var,min,max,std
+## Features:
+base on:
+a. points of interest: list of 15 points of interest points: body parts are used to get up, for each point we take: var, min, max on all 3D coordinates
+
+b. max on How many people in the frame.
+
+c. how many different people 
+
+d. total of frames per record
+
+e. the number of frames its took the person to get up
+
+f. list of 15 triple and takes the angle betweens the three points for each angle we take: var, min, max, std
 
   
 
