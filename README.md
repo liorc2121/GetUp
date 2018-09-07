@@ -7,8 +7,10 @@ Get the Data:
 Build a picture Enrollment with the library of pyKinect2 and get the 3D map of 24 points in every frame
 the camera save the Data
 
+![alt text](https://github.com/liorc2121/GetUp/blob/master/Pictures/DataPic1.png)
+![alt text](https://github.com/liorc2121/GetUp/blob/master/Pictures/DataPic2.png)
 
-# How it works:
+## How it works:
 
 
 
