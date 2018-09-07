@@ -12,6 +12,7 @@ the camera save the Data
 
 ## How it works:
 
+![alt text](https://github.com/liorc2121/GetUp/blob/master/Pictures/Report%20-%20GetUp.jpg)
 
 
 
