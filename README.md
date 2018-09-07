@@ -1,7 +1,3 @@
-# GetUp
-GetUp Project - 3D Photography
-
-
 # problem definition 
 Given stream of pictures from kinect of person get up from the chair,
 Need to understand if the person will suffer from Loss of balance.
